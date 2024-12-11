@@ -22,9 +22,6 @@ export PATH="$HOME/.cargo/bin:$PATH"
 # Update Rust
 rustup update
 
-# Create a screen session for Nexus
-screen -dmS nexus
-
 # Install Nexus CLI
 sudo curl https://cli.nexus.xyz/install.sh | sh
 
