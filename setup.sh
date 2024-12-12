@@ -22,6 +22,8 @@ export PATH="$HOME/.cargo/bin:$PATH"
 # Update Rust
 rustup update
 
+sudo apt install -y protobuf-compiler
+
 # Install Nexus CLI
 sudo curl https://cli.nexus.xyz/install.sh | sh
 
